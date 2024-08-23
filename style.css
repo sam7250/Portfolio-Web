@@ -203,7 +203,7 @@ span{
 }
 
 .typing-text span::before{
-    content: "software Developer";
+    content: "Web Dev";
     color: #b74b4b;
     animation: words 12s infinite;
 }
@@ -227,21 +227,21 @@ span{
 
 @keyframes words{
     0%, 20%{
-        content: "Web Developer.. ";
+        content: "Web Dev";
     }
     21%, 40%{
-        content: "Developer.. ";
+        content: "Developer";
     }
     41%, 60%{
-        content: "Frontend Developer.. ";
+        content: "Frontend Dev";
 
     }
     61%, 80%{
-        content: "Backend Developer.. ";
+        content: "Backend Dev";
 
     }
     81%, 100%{
-        content: "Android Developer.. ";
+        content: "Android Dev";
 
     }
 }
